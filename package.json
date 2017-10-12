@@ -1,0 +1,37 @@
+{
+  "name": "generator-shellthor-oss",
+  "version": "0.0.0-semantically-released",
+  "description":
+    "A generator for my projects. Feel free to contribute if you want to adapt it for more use cases",
+  "scripts": {
+    "add-contributor": "jmd-scripts contributors add",
+    "lint": "jmd-scripts lint",
+    "validate": "jmd-scripts validate",
+    "precommit": "jmd-scripts precommit"
+  },
+  "files": ["generators"],
+  "keywords": ["open source", "shellthor", "yeoman-generator"],
+  "author": "Jeff Detmer <jeff.detmer@gmail.com> (http://jeffdetmer.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.kebabcase": "4.1.1",
+    "npm-check": "5.4.5",
+    "yeoman-generator": "2.0.1"
+  },
+  "devDependencies": {
+    "jmd-scripts": "^1.1.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/jmd-scripts/eslint.js"
+  },
+  "eslintIgnore": ["node_modules", "coverage", "dist"],
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shellthor/generator-shellthor-oss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shellthor/generator-shellthor-oss/issues"
+  },
+  "homepage": "https://github.com/shellthor/generator-shellthor-oss#readme"
+}

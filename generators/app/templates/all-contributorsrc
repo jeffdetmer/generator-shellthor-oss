@@ -1,0 +1,11 @@
+{
+  "projectName": "<%= moduleName %>",
+  "projectOwner": "shellthor",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+  ]
+}

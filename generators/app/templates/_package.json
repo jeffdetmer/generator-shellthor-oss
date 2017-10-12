@@ -1,0 +1,39 @@
+{
+  "name": "<%= moduleName %>",
+  "version": "0.0.0-semantically-released",
+  "description": "<%= description %>",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "> 4",
+    "npm": "> 3"
+  },
+  "scripts": {
+    "add-contributor": "jmd-scripts contributors add",
+    "build": "jmd-scripts build",
+    "lint": "jmd-scripts lint",
+    "test": "jmd-scripts test",
+    "test:update": "npm test -- --updateSnapshot --coverage",
+    "validate": "jmd-scripts validate",
+    "precommit": "jmd-scripts precommit"
+  },
+  "files": ["dist"],
+  "keywords": [],
+  "author": "Jeff Detmer <jeff.detmer@gmail.com> (http://jeffdetmer.com/)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jmd-scripts": "^.1.1.1"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/jmd-scripts/eslint.js"
+  },
+  "eslintIgnore": ["node_modules", "coverage", "dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shellthor/<%= moduleName %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shellthor/<%= moduleName %>/issues"
+  },
+  "homepage": "https://github.com/shellthor/<%= moduleName %>#readme"
+}
