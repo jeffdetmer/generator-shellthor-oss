@@ -36,6 +36,8 @@
 
 ## The problem
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shellthor/generator-shellthor-oss.svg)](https://greenkeeper.io/)
+
 I have to do a lot of repetitive stuff every time I set up a new open source project.
 
 ## This solution
